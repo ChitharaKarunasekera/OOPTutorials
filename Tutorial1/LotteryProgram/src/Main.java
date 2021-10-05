@@ -49,6 +49,6 @@ public class Main {
             }
         }
 
-        System.out.println("You have " + matches + " matches!");
+        System.out.println("You have " + matches + " ma!");
     }
 }
