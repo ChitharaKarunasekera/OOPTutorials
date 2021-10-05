@@ -73,7 +73,7 @@ public class Main {
 //        }
 //
 //        //Generate 6 random numbers, store them in an array and display them
-//        int max = 5;
+//        int max = 49;
 //        int min = 1;
 //        int matches = 0;
 //
