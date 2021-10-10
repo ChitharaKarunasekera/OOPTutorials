@@ -67,11 +67,7 @@ public class Main {
                 }
             }
         }
-<<<<<<< HEAD
-=======
 
-        System.out.println("Total Matches : " + count);
->>>>>>> Tutorial1
     }
 
 }
