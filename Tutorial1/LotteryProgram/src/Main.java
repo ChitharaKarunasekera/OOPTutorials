@@ -111,11 +111,6 @@ public class Main {
 //        System.out.print(drawNumbers[i] + " ");
 //        }
 //
-//
-//        for (int i = 0; i < drawNumbers.length; i++) {
-//        for (int j = 0; j < userInputs.length; j++) {
-//        if (drawNumbers[i] == userInputs[j]) {
-//        System.out.println(userInputs[j]);
-//        matches++;
+
 
 
