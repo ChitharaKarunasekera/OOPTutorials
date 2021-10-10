@@ -77,14 +77,6 @@ public class Main {
 }
 
 
-//    Scanner input = new Scanner(System.in);
-//
-//    Random randNum = new Random(); //instance of Random class
-//
-//    int[] userInputs = new int[6];
-//    int[] drawNumbers = new int[6];
-//
-//        System.out.println("Lottery Game!\n");
 //
 //                //Get user inputs, store them in an array, and display them
 //                for (int i = 0; i < userInputs.length; i++) {
