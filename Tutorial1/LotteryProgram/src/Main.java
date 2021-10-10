@@ -62,6 +62,7 @@ public class Main {
         for (int checkNum : refInputs) {
             for (int currentElement : refLuckyNums) {
                 if (currentElement == checkNum) {
+                    //if current elements of inputs includes in the set of lucky numbers increase count by one
                     count++;
                     break;
                 }
@@ -92,13 +93,7 @@ public class Main {
 //        drawNumbers[i] = randNum.nextInt(max - min + 1) + min;//numbers between 1 - 49
 //        }
 //
-//        System.out.println("\n");
-//
-//
-//        for (int i = 0; i < drawNumbers.length; i++) {
-//        System.out.print(drawNumbers[i] + " ");
-//        }
-//
+
 
 
 
