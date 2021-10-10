@@ -117,7 +117,5 @@ public class Main {
 //        if (drawNumbers[i] == userInputs[j]) {
 //        System.out.println(userInputs[j]);
 //        matches++;
-//        }
-//        }
-//        }
+
 
