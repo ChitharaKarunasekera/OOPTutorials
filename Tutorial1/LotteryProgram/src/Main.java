@@ -73,28 +73,3 @@ public class Main {
     }
 
 }
-
-
-//
-//                //Get user inputs, store them in an array, and display them
-//                for (int i = 0; i < userInputs.length; i++) {
-//        System.out.print("Enter lottery number " + (i + 1) + ": ");
-//        userInputs[i] = input.nextInt();
-//        }
-//        for (int i = 0; i < userInputs.length; i++) {
-//        System.out.print(userInputs[i] + " ");
-//        }
-//
-//        //Generate 6 random numbers, store them in an array and display them
-//        int max = 49;
-//        int min = 1;
-//        int matches = 0;
-//
-//        for (int i = 0; i < 6; i++) {
-//        drawNumbers[i] = randNum.nextInt(max - min + 1) + min;//numbers between 1 - 49
-//        }
-//
-
-
-
-
