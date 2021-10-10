@@ -47,10 +47,11 @@ public class Main {
     public static void setLuckyNums(int[] refLuckyNums) {
         Random randNum = new Random(); //instance of Random class
 
-        int max = 5;
+        int max = 49;
         int min = 1;
 
         for (int i = 0; i < refLuckyNums.length; i++) {
+            //insert a set of random numbers to the array
             refLuckyNums[i] = randNum.nextInt(max - min + 1) + min;
         }
     }
