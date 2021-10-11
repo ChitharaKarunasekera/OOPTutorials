@@ -1,8 +1,3 @@
-
-addSoda
-dropSoda
-
-
 import java.util.Scanner;
 
 public class VendingMachine {
