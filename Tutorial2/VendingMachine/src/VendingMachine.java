@@ -1,4 +1,4 @@
-/* Methods for this class
+
 addSoda
 dropSoda
 
