@@ -41,6 +41,7 @@ public class VendingMachine {
         return totalCans;
     }
 
+    //Get the current number of tokens in machine
     public int getTotalTokens() {
         return totalTokens;
     }
