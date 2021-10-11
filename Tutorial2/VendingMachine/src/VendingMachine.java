@@ -32,6 +32,7 @@ public class VendingMachine {
         }
         else
         {
+            //no cans in machine
             System.out.println("Sorry! Cans are over.");
         }
     }
