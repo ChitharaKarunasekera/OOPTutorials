@@ -36,6 +36,7 @@ public class VendingMachine {
         }
     }
 
+    //Get the current number of cans in machine
     public int getTotalCans() {
         return totalCans;
     }
