@@ -1,8 +1,7 @@
 /* Methods for this class
 addSoda
 dropSoda
-insertToken
- */
+
 
 import java.util.Scanner;
 
