@@ -18,6 +18,7 @@ public class VendingMachine {
 
     //to drop soda to delivery slot
     public void drop(int cans){
+        //decrease count of cans by one for each token
         this.totalCans--;
     }
 
@@ -25,7 +26,7 @@ public class VendingMachine {
     public void insertToken (){
         this.totalTokens++;//increase the count of tokens by one
 
-        //drop a can for each token
+        //drop a can for each token if cans are awailable
         if (totalCans > 0) {
             drop(1);
         }
