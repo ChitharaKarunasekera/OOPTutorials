@@ -15,6 +15,6 @@ public class Main {
 
         //Qn 3.
         System.out.println("Using + operator");
-        System.out.println(article + animal1 + action + article + animal2);
+        System.out.println(article + " " + animal1 + " " +  action + " " +  article + " " +  animal2);
     }
 }
