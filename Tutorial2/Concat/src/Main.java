@@ -9,7 +9,7 @@ public class Main {
         /* Your work goes here */
         //Qn 2.
         System.out.println("Using contact method");
-        System.out.println(article.concat(animal1).concat(" ").concat(action).concat(article).concat(animal2));
+        System.out.println(article.concat(animal1).concat(" ").concat(action).concat(" ").concat(article).concat(" ").concat(animal2));
 
         System.out.println("\n");
 
