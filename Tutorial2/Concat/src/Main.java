@@ -14,7 +14,7 @@ public class Main {
         System.out.println("\n");
 
         //Qn 3.
-        System.out.println("Using + operator")
+        System.out.println("Using + operator");
         System.out.println(article + animal1 + action + article + animal2);
     }
 }
