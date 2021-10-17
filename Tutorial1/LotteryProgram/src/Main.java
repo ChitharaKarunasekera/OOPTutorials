@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Man {
+public class Main {
 
     public static void main(String[] args) {
         Random randNum = new Random(); //instance of Random class
