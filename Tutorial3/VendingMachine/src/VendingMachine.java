@@ -5,6 +5,16 @@ public class VendingMachine {
     private int totalCans;
     private int totalTokens;
 
+    public VendingMachine(){
+        this.totalCans = 10;
+        this.totalTokens =  0;
+    }
+
+    public VendingMachine(int cans){
+        this.totalCans = cans;
+        this.totalTokens =  0;
+    }
+
     public VendingMachine(int totalCans, int totalTokens){
         this.totalCans = totalCans;
         this.totalTokens =  totalTokens;
