@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Employee e1 = new Employee("Chithara", 15000);
+        Employee e1 = new Employee("Chithara", 15000);//Employee 1
         Employee e2 = new Employee("Jack", 20000);
 
         System.out.println("Employee 1 name: " + e1.getName());
