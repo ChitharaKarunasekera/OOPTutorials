@@ -26,4 +26,10 @@ public class Passport extends Card{
     public int getExpirationYear() {
         return expirationYear;
     }
+
+    @Override
+    public void format() {
+        super.format();
+        System.out.println();
+    }
 }

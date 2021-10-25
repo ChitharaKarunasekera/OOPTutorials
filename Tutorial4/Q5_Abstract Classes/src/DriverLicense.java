@@ -16,4 +16,10 @@ public class DriverLicense extends Card{
         }
         return true;
     }
+
+    @Override
+    public void format() {
+        super.format();
+        System.out.println("Expiration Year: " + expirationYear);
+    }
 }
