@@ -8,6 +8,13 @@ public class Student implements Printable{
     }
 
     public void print(){
+        //Display name of student
+        System.out.println("Name: " + name);
 
+        //Display the five grades
+        System.out.print("Grade: ");
+        for (String i: grade){
+            System.out.print(i + " ");
+        }
     }
 }
