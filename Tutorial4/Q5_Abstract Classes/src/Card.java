@@ -16,7 +16,7 @@ public abstract class Card {
 
     public abstract boolean isExpired();
 
-    public String format() {
-        return "Card holder: " + name;
+    public void format() {
+        System.out.println("Name: " + name);
     }
 }

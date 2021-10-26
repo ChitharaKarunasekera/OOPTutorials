@@ -15,4 +15,11 @@ public class CreditCard extends Card{
     public boolean isExpired() {
         return false;
     }
+
+    @Override
+    public void format() {
+        super.format();
+        System.out.println("Pin number: " + pinNumber);
+        System.out.println("Number: " + number);
+    }
 }

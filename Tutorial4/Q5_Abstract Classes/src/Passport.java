@@ -18,4 +18,18 @@ public class Passport extends Card{
         }
         return true;
     }
+
+    public String getBirthLocation() {
+        return birthLocation;
+    }
+
+    public int getExpirationYear() {
+        return expirationYear;
+    }
+
+    @Override
+    public void format() {
+        super.format();
+        System.out.println();
+    }
 }
