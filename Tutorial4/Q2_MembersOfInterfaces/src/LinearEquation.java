@@ -1,7 +1,8 @@
 public class LinearEquation implements Equation {
+
+
     public double solve() {
-        numberOfVariables = 2;
-// ... details omitted
+        return numberOfVariables;
     }
 
     public static void main(String[] args) {

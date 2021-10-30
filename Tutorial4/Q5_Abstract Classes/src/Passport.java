@@ -30,6 +30,7 @@ public class Passport extends Card{
     @Override
     public void format() {
         super.format();
-        System.out.println();
+        System.out.println("Birth Location: " + getBirthLocation());
+        System.out.println("Expiration Year: " + getExpirationYear());
     }
 }
