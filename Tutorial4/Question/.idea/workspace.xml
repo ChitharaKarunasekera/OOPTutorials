@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="1e2bd194-de63-4e80-8070-56107e1b56a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Q4_ComparatorInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Q4_ComparatorInterface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Q4_ComparatorInterface/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Q4_ComparatorInterface/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-=======
-<<<<<<< HEAD
-    <list default="true" id="6133c5e8-b5cc-4afc-9754-383ec08452e6" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="1e2bd194-de63-4e80-8070-56107e1b56a1" name="Default Changelist" comment="" />
->>>>>>> 47dd899696f01ea4fbb3d36087b65e5abce15607
->>>>>>> 4025699a97e917190694c2f64e2c54f376b44e03
+    <list default="true" id="a08a793d-03a9-46dd-943b-6c770bc52c1f" name="Default Changelist" comment="changed folder name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="20DwBsLbW5TSo95ReUWluo1nf5h" />
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1zzBmT6mzHMWFNkjq0Gf1PvbE1P" />
+  <component name="ProjectId" id="20AydeEir8F0COvS4N2fixlEsju" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -92,27 +75,19 @@
       </pane>
     </panes>
   </component>
->>>>>>> 47dd899696f01ea4fbb3d36087b65e5abce15607
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Q4_ComparatorInterface" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Q5_Abstract Classes" />
+      <module name="Q3_ComparableInterface" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -120,43 +95,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
->>>>>>> 47dd899696f01ea4fbb3d36087b65e5abce15607
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="6133c5e8-b5cc-4afc-9754-383ec08452e6" name="Default Changelist" comment="" />
-      <created>1635592333988</created>
+      <changelist id="a08a793d-03a9-46dd-943b-6c770bc52c1f" name="Default Changelist" comment="" />
+      <created>1635501778906</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1635592333988</updated>
-      <workItem from="1635592335609" duration="875000" />
-=======
-      <changelist id="1e2bd194-de63-4e80-8070-56107e1b56a1" name="Default Changelist" comment="" />
-      <created>1635141197615</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1635141197615</updated>
-      <workItem from="1635141199739" duration="4407000" />
-      <workItem from="1635228651479" duration="1230000" />
-<<<<<<< HEAD
-      <workItem from="1635740161533" duration="1408000" />
-=======
-<<<<<<< HEAD
-      <workItem from="1635740161533" duration="1375000" />
-=======
->>>>>>> 47dd899696f01ea4fbb3d36087b65e5abce15607
->>>>>>> 4025699a97e917190694c2f64e2c54f376b44e03
->>>>>>> 6fb23ebc3e5c0ef7c170bd9db78e441a639d2e92
+      <updated>1635501778906</updated>
+      <workItem from="1635501780712" duration="2779000" />
+      <workItem from="1635588218910" duration="1695000" />
     </task>
+    <task id="LOCAL-00001" summary="changed folder name">
+      <created>1635588408451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635588408451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -167,7 +148,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
->>>>>>> 47dd899696f01ea4fbb3d36087b65e5abce15607
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed folder name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed folder name" />
+  </component>
 </project>
