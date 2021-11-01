@@ -15,6 +15,7 @@ public class Main {
         list.add(ba3);
 
         // call the library sort method
+        list;
         Collections.sort(list);
 
         // print out the sorted list
