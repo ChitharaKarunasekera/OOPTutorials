@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Q1_StaticMethids.iml" filepath="$PROJECT_DIR$/Q1_StaticMethids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q3_UsingSuper().iml" filepath="$PROJECT_DIR$/Q3_UsingSuper().iml" />
     </modules>
   </component>
 </project>
