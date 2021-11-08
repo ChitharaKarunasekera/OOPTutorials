@@ -10,15 +10,7 @@ public class BankAccount implements Comparator<BankAccount> {
     }
 
     public int compare(BankAccount object1, BankAccount object2) {
-        if (object1.balance < object2.balance){
-            return -1;
-        }
-        else if (object1.balance == object2.balance){
-            return 0;
-        }
-        else{
-            return 1;
-        }
+        return 0;
     }
 
     public double getBalance() {
