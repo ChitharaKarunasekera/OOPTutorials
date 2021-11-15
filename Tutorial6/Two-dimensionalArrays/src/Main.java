@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Board board1 = new Board(5);
+        board1.print();
     }
 }
