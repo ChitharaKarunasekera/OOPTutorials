@@ -12,7 +12,7 @@ public class Main {
 
 
         String leftAlignFormat = "| %-11s | %-12s | %-13d | %-13d | %-13d | %-12d | %-9d |%n";
-
+        System.out.format("                                                nvbnv n                                                  %n");
         System.out.format("+-------------+--------------+---------------+---------------+---------------+--------------+-----------+%n");
         System.out.format("| Driver Name | Team Name    | 1st Positions | 2nd Positions | 3rd Positions | Total Points | Completed |%n");
         System.out.format("+-------------+--------------+---------------+---------------+---------------+--------------+-----------+%n");
