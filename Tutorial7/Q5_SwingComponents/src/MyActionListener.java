@@ -12,7 +12,6 @@ class MyActionListener implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         System.out.println("Pressed Button " + i++ + "th time!");
-        System.out.println("H");
 
         if (i % 2 == 0)
             frame.getContentPane().setBackground(Color.red);
