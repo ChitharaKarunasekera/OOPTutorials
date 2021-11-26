@@ -16,7 +16,9 @@ class MyActionListener implements ActionListener {
         if (i % 2 == 0) {
             frame.getContentPane().setBackground(Color.red);
         }
-        else
+        else{
+            
+        }
             frame.getContentPane().setBackground(Color.white);
     }
 }
