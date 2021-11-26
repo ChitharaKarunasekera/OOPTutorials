@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("ComponentExample");
-        JButton button = new JButton("Press me");
+        JButton button = new JButton("Press Me");
         JPanel jp = new JPanel();
         jp.setBackground(Color.white);
 
