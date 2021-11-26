@@ -17,7 +17,7 @@ class MyActionListener implements ActionListener {
             frame.getContentPane().setBackground(Color.red);
         }
         else{
-
+            frame.getContentPane().setBackground(Color.white);
         }
     }
 }
