@@ -7,7 +7,7 @@ public class Formula1Driver extends Driver implements Comparable<Formula1Driver>
     public static final long serialVersionID = 1L;
 
     //Driver's statistics
-    private int firstPositionCount
+    private int firstPositionCount;
     private int secondPositionCount;
     private int thirdPositionCount;
     private int points;
