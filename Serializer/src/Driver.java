@@ -1,4 +1,4 @@
-import java.io.Serializable
+import java.io.Serializable;
 
 public abstract class Driver implements Serializable {
     //Basic Information
