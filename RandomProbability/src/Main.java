@@ -8,8 +8,11 @@ public class Main {
         ArrayList<Integer> prob = new ArrayList<>();
 
         for (int i=0; i<10; i++) {
-            int randomNum = rand.nextInt(2);
-            if (randomNum <= 0.4){
+            int randomNum = rand.nextInt(4)+1;
+            if (randomNum <= 1.6){
+                prob.add(randomNum);
+            }
+            else {
                 prob.add(randomNum);
             }
         }
@@ -17,6 +20,10 @@ public class Main {
         for (int number: prob){
             System.out.println(number);
         }
+
+//        for (int i=0; i<10; i++){
+//            int random = rand.nextInt()
+//        }
 
 
 
