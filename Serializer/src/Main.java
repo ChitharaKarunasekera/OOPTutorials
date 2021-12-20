@@ -10,12 +10,19 @@ public class Main {
         String option;
         final String fileName = "Data";
 
-        ArrayList<String> names = new ArrayList<>();
+        ArrayList<Formula1Driver> drivers = new ArrayList<>();
+        drivers.add(new Formula1Driver("Chithara", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
+        drivers.add(new Formula1Driver("Tom", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
+        drivers.add(new Formula1Driver("Max", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
+        drivers.add(new Formula1Driver("Ann", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
+        drivers.add(new Formula1Driver("Chanu", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
+        drivers.add(new Formula1Driver("Jack", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
 
-        names.add("Chithara");
-        names.add("Chanara");
-        names.add("Chithzz");
-        names.add("Chanuzz");
+
+//        circles.add(new Circle("c1", 14));
+//        circles.add(new Circle("c2", 7));
+//        circles.add(new Circle("c3", 21));
+//        circles.add(new Circle("c4", 28));
 
 //        System.out.print("Enter name: ");
 //        name = input.next();
@@ -32,7 +39,7 @@ public class Main {
 
         if (option.equalsIgnoreCase("S")){
             SaveData saveData = new SaveData();
-            saveData.names = names;
+            saveData.drivers = drivers;
 
             try {
                 ResourceManager.save(saveData, fileName);
@@ -45,11 +52,11 @@ public class Main {
                 SaveData saveData = (SaveData) ResourceManager.load(fileName);
 //                name = saveData.name;
 //                hp = String.valueOf(saveData.hp);
-                names = saveData.names;
+                drivers = saveData.drivers;
 
-                System.out.println("Saved Names: ");
-                for (String name: names){
-                    System.out.println(name);
+                System.out.println("Saved Circles: ");
+                for (Formula1Driver driver: drivers){
+                    System.out.println(driver.getName());
                 }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
