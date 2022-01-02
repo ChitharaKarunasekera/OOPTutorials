@@ -46,7 +46,7 @@ class TicTacToeGame {
         board.step(action);
     }
 
-    
+
     public static void main(String[] args) {
         Board board = new Board();
         Player human = new HumanPlayer(board, 'X');

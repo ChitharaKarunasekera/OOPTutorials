@@ -23,6 +23,7 @@ public class Board {
     public String toString() {
         return str2Board(current_state);
     }
+
     // returns an blank space if s is "-" otherwise the char itself
     public char charOut(char s) {
         if (s == '-')
@@ -38,7 +39,7 @@ public class Board {
     }
 
     /* translates a player's action to an index that the X
-will be placed on the board - returns -1 if not valid int */
+    will be placed on the board - returns -1 if not valid int */
 
     public int action2Index(String action) {
         int index = -1;
