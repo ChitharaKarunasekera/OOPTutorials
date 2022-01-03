@@ -26,6 +26,7 @@ public class IntelligentPlayer extends RandomPlayer{
             if (board.current_state.charAt(i) == 'X'){
                 if (board.current_state.charAt(i+1) == 'X' || board.current_state.charAt(i+3) == 'X' || board.current_state.charAt(4) == 'X'){
                     //add computer move next to it
+
                 }
             }
             if (board.current_state.charAt(i) == '-') {
