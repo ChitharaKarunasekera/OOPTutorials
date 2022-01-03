@@ -21,10 +21,17 @@ public class IntelligentPlayer extends RandomPlayer{
 
         // find all available actions (empty slots)
         ArrayList<Integer> available = new ArrayList<>();
-        for (int i = 0; i < board.current_state.length(); i++)
+        for (int i = 0; i < board.current_state.length(); i++) {
+            //check if there are two X characters horizontally, vertically or diagonally
+            if (board.current_state.charAt(i) == 'X'){
+                if (board.current_state.charAt(i+1) == 'X' || board.current_state.charAt(i+3) == 'X' || board.current_state.charAt(4) == 'X'){
+                    //add computer move next to it
+                }
+            }
             if (board.current_state.charAt(i) == '-') {
                 available.add(i);
             }
+        }
 
         // choose a random action among the available empty slots
         Random gen = new Random();
