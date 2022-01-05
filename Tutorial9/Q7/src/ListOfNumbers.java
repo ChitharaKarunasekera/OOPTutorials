@@ -64,6 +64,10 @@ public class ListOfNumbers {
     }
 
     // ... method readList goes here ...
+    public static void readList(){
+
+    }
+
     public static void main(String[] args) {
         ListOfNumbers program = new ListOfNumbers();
         program.readList();
