@@ -18,7 +18,6 @@ public class Main {
             while ((line = input.readLine()) != null) {
                 System.out.println(line);
             }
-            return;
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
