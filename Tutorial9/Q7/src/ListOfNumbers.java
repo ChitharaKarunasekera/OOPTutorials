@@ -67,12 +67,22 @@ public class ListOfNumbers {
 
     // ... method readList goes here ...
     public static void readList(){
-        
+        int number;
+        FileInputStream in = null;
+
+        try {
+            in = new FileInputStream("OutFile.txt");
+            number = in.read();
+            System.out.println(number);
+            in.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
         ListOfNumbers program = new ListOfNumbers();
-        program.readList();
         program.writeList();
+        program.readList();
     }
 }
