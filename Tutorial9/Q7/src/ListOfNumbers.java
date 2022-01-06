@@ -35,6 +35,7 @@ import java.util.ArrayList;
 public class ListOfNumbers {
     private List<Integer> list;
     private static final int SIZE = 10;
+
     public ListOfNumbers () {
         list = new ArrayList<Integer>(SIZE);
         for (int i = 0; i < SIZE; i++)
@@ -43,6 +44,7 @@ public class ListOfNumbers {
 
     public void writeList() {
         PrintWriter out = null;
+
         try {
             System.out.println("Entering try statement");
             out = new PrintWriter(new FileWriter("OutFile.txt"));
@@ -65,12 +67,22 @@ public class ListOfNumbers {
 
     // ... method readList goes here ...
     public static void readList(){
+        int number;
+        FileInputStream in = null;
 
+        try {
+            in = new FileInputStream("OutFile.txt");
+            number = in.read();
+            System.out.println(number);
+            in.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
         ListOfNumbers program = new ListOfNumbers();
-        program.readList();
         program.writeList();
+        program.readList();
     }
 }
