@@ -34,7 +34,7 @@ public class IntelligentPlayer extends RandomPlayer{
             }
         }
 
-        // choose a random action among the available empty 
+        // choose a random action among the available empty slots
         Random gen = new Random();
         int index = gen.nextInt(available.size());
         System.out.println("*** Played position-> " + (1 + available.get(index)) + "\n");
