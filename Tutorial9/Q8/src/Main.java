@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 public class Main {
 
     public static void main(String[] args) {
-	 write your code here
+	  your code here
     }
 
     public static void cat(File file) throws IOException {
