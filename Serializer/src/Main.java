@@ -27,8 +27,7 @@ public class Main {
 //        System.out.print("Enter name: ");
 //        name = input.next();
 //
-//        System.out.println("Enter HP: ");
-//        hp = input.next();
+
 
 
         System.out.println("S - Save data");
