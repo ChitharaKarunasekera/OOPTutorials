@@ -24,7 +24,9 @@ public class Main {
 //        circles.add(new Circle("c3", 21));
 //        circles.add(new Circle("c4", 28));
 
-
+//        System.out.print("Enter name: ");
+//        name = input.next();
+//
 //        System.out.println("Enter HP: ");
 //        hp = input.next();
 
