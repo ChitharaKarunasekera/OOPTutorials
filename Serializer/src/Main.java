@@ -19,12 +19,10 @@ public class Main {
         drivers.add(new Formula1Driver("Jack", "Nugegoda", "Chithzz", 0,1,3,45,5,2));
 
 
-//        circles.add(new Circle("c1", 14));
-//        circles.add(new Circle("c2", 7));
-//        circles.add(new Circle("c3", 21));
-//        circles.add(new Circle("c4", 28));
 
-
+//        System.out.print("Enter name: ");
+//        name = input.next();
+//
 //        System.out.println("Enter HP: ");
 //        hp = input.next();
 
