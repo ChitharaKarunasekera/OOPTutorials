@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Q3_ SwingvsAWT/Q3_ SwingvsAWT.iml" filepath="$PROJECT_DIR$/Q3_ SwingvsAWT/Q3_ SwingvsAWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4_AddEvent/Q4_AddEvent.iml" filepath="$PROJECT_DIR$/Q4_AddEvent/Q4_AddEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q5_SwingComponents/Q5_SwingComponents.iml" filepath="$PROJECT_DIR$/Q5_SwingComponents/Q5_SwingComponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tutorial7.iml" filepath="$PROJECT_DIR$/.idea/Tutorial7.iml" />
+    </modules>
+  </component>
+</project>

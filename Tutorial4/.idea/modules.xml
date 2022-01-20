@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Q1_Interfaces/Q1_Interfaces.iml" filepath="$PROJECT_DIR$/Q1_Interfaces/Q1_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q2_MembersOfInterfaces/Q2_MembersOfInterfaces.iml" filepath="$PROJECT_DIR$/Q2_MembersOfInterfaces/Q2_MembersOfInterfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q3_Comparable Interface/Q3_Comparable Interface.iml" filepath="$PROJECT_DIR$/Q3_Comparable Interface/Q3_Comparable Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q4_ComparatorInterface/Q4_ComparatorInterface.iml" filepath="$PROJECT_DIR$/Q4_ComparatorInterface/Q4_ComparatorInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q5_Abstract Classes/Q5_Abstract Classes.iml" filepath="$PROJECT_DIR$/Q5_Abstract Classes/Q5_Abstract Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tutorial4.iml" filepath="$PROJECT_DIR$/.idea/Tutorial4.iml" />
+    </modules>
+  </component>
+</project>
